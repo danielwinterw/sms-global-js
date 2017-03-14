@@ -1,0 +1,11 @@
+{
+  "name": "sms-global-js",
+  "version": "1.0.0",
+  "description": "A node js library for the SMS global http-api.",
+  "main": "index.js",
+  "author": "Daniel Winter-Wijntjes",
+  "license": "GNU",
+  "dependencies": {
+    "request-promise": "^4.1.1"
+  }
+}
