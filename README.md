@@ -3,6 +3,8 @@ A node js library for the SMS global http-api.
 
 ##Usage
 ```
+const SMSGlobal = require('sms-global-js');
+
 const sms = new SMSGlobal();
 
 sms.authenticate('username', 'password');
