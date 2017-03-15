@@ -1,6 +1,11 @@
 # sms-global-js
 A node js library for the SMS global http-api.
 
+## Installation
+```
+npm install --save sms-global-js
+```
+
 ## Usage
 ```
 const SMSGlobal = require('sms-global-js');
