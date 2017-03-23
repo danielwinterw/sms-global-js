@@ -7,7 +7,7 @@ const rq = require('request-promise');
 
 /*
 Author: Daniel Winter-Wijntjes
-Website: https://github.com/wijntjes/
+Website: https://github.com/danwinterwijntjes/
 Name: SMS Global Send SMS Class
 */
 class SMSGlobal {
