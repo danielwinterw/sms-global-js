@@ -7,7 +7,7 @@ npm install --save sms-global-js
 ```
 
 ## Usage
-```
+```js
 const SMSGlobal = require('sms-global-js');
 
 const sms = new SMSGlobal();
