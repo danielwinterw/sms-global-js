@@ -35,7 +35,7 @@ class SMSGlobal {
         if (!this.message.recipient) throw new Error('No message recipient');
         if (!this.auth.user || !this.auth.password) throw new Error('No authentication parameters');
         return rq({
-            uri: 'http://www.smsglobal.com/http-api.php',
+            uri: 'https://api.smsglobal.com/http-api.php',
             qs: {
                 action: 'sendsms',
                 user: this.auth.user,
@@ -47,11 +47,12 @@ class SMSGlobal {
         }).then((res) => {
             return ({
                 success: true,
+                message: res
             });
         }).catch((err) => {
             return ({
                 success: false,
-                errors: ['A request error has occured.'],
+                errors: ['Something went wrong with error - ', err],
             })
         });
     }
